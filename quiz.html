@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MCQ Quiz | Class 11–N Marketing</title>
+  <meta name="description" content="A quick 10-question MCQ quiz on Class 11 Marketing basics, with instant feedback and a score.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">XI–N</span>
+        <span class="brand-text">Marketing<small>Class 11 · Study Hub</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="topics.html">Topics</a>
+        <a href="notes.html">Notes</a>
+        <a href="quiz.html" class="active" aria-current="page">Quiz</a>
+        <a href="resources.html">Resources</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <p class="kicker">Self-test</p>
+        <h1>MCQ quiz</h1>
+        <p>
+          Ten questions on the foundations — the mix, STP, the product life cycle,
+          pricing and promotion. Answer one at a time and get feedback straight away.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="quiz-shell">
+          <div class="quiz-card" id="quiz-card">
+            <div class="quiz-top">
+              <span id="quiz-counter">Question 1 of 10</span>
+              <span>Marketing basics</span>
+            </div>
+
+            <div class="progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0">
+              <div class="progress-bar" id="quiz-bar"></div>
+            </div>
+
+            <h2 class="question" id="quiz-question" tabindex="-1"></h2>
+            <div class="options" id="quiz-options"></div>
+            <div class="feedback" id="quiz-feedback" role="status" hidden></div>
+
+            <div class="quiz-footer">
+              <p class="quiz-hint" id="quiz-hint">Pick one answer. Feedback appears instantly.</p>
+              <button type="button" class="btn btn-navy" id="quiz-next" hidden>Next question →</button>
+            </div>
+
+            <div class="result" id="quiz-result" tabindex="-1" hidden>
+              <p class="kicker">Result</p>
+              <p class="result-score" id="quiz-score">0 / 10</p>
+              <p id="quiz-message"></p>
+              <p style="margin-top: 1rem;">
+                <button type="button" class="btn btn-gold" id="quiz-restart">Restart quiz</button>
+                <a class="btn btn-outline" href="notes.html">Revise the notes</a>
+              </p>
+            </div>
+          </div>
+
+          <p class="quiz-note">
+            No timer, no pressure. <a href="notes.html">Revise the notes</a> first if
+            you want a warm-up.
+          </p>
+
+          <noscript>
+            <div class="callout">
+              This quiz needs JavaScript to run. You can still read all the notes and
+              frameworks on the <a href="notes.html">Notes page</a>.
+            </div>
+          </noscript>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">Class 11–N · Marketing</p>
+        <p class="footer-note">
+          A study site made for our class. Everything here is plain HTML — easy to
+          edit, print and share.
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="topics.html">Topics</a>
+        <a href="notes.html">Notes &amp; glossary</a>
+        <a href="quiz.html">MCQ quiz</a>
+        <a href="resources.html">Resources</a>
+        <p class="footer-note">© <span data-year>2026</span> Class 11–N</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
